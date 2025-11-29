@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Trivia – Aula Virtual Vías I</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center fw-bold" href="index.html">
+        <img src="./img/logo-vias.jpeg" alt="Logo empresa de vías" class="logo-empresa me-2">
+        <span>Aula Virtual Vías I</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navBar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navBar">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="archivos.html">Archivos</a></li>
+          <li class="nav-item"><a class="nav-link active" href="trivia.html">Trivia</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- /NAVBAR -->
+
+  <header class="py-4">
+    <div class="container">
+      <h2 class="fw-bold mb-1">Trivia y Cuestionarios</h2>
+      <p class="text-muted mb-0">
+        Pon a prueba tus conocimientos en diseño geométrico de carreteras. Aquí encuentras los cuestionarios de las
+        Guías 1, 3 y 4.
+      </p>
+    </div>
+  </header>
+
+  <main class="container mb-5">
+
+    <!-- BOTONES RÁPIDOS -->
+    <section class="mb-4">
+      <p class="fw-semibold mt-2">Alineamiento horizontal y peralte</p>
+      <a class="btn-tag" href="#guia1">Guía 1 – Curva circular simple</a>
+      <a class="btn-tag" href="#guia3">Guía 3 – Curva espiralizada</a>
+      <a class="btn-tag" href="#guia4">Guía 4 – Peralte</a>
+    </section>
+
+    <!-- ================= GUIA 1 ================= -->
+    <section id="guia1" class="mb-5">
+      <div class="card-custom p-4">
+        <h4 class="mb-2">Cuestionario – Guía 1: Curva Circular Simple</h4>
+        <p class="text-muted mb-3">
+          Instrucciones: Seleccione la respuesta correcta para cada pregunta. Este cuestionario evalúa la comprensión de
+          los requisitos de precisión, el procedimiento de campo y la estructura del informe de la Práctica 1.
+        </p>
+
+        <ol>
+          <li class="mb-2">
+            <strong>Precisión Angular</strong><br>
+            Según las directrices del procedimiento de oficina, ¿cuál es la precisión mínima que se debe emplear para
+            los cálculos de los segundos en las deflexiones?<br>
+            A) Un decimal.<br>
+            B) Dos decimales.<br>
+            C) Hasta el milímetro.<br>
+            D) Grados, minutos y segundos enteros.
+          </li>
+
+          <li class="mb-2">
+            <strong>Tolerancia de Error Matemático</strong><br>
+            ¿Cuál es el error máximo permitido para el error matemático de los cálculos de la curva?<br>
+            A) Cinco segundos (±05'').<br>
+            B) Dos segundos (±02'').<br>
+            C) Un minuto (±01').<br>
+            D) Un centímetro (±1 cm).
+          </li>
+
+          <li class="mb-2">
+            <strong>Inicio del Procedimiento de Campo</strong><br>
+            De acuerdo con el procedimiento de campo, ¿cuál es el primer punto de la curva que se identifica y marca
+            arbitrariamente en el terreno?<br>
+            A) El Punto de Curva (PC).<br>
+            B) El Punto de Inflexión (PI).<br>
+            C) El Punto de Tangencia (PT).<br>
+            D) El Punto Medio (PM).
+          </li>
+
+          <li class="mb-2">
+            <strong>Error de Cierre (Unidad)</strong><br>
+            Para el registro y análisis del error de cierre en el punto final de la curva, ¿en qué unidad de medida se
+            debe expresar el error de cierre lineal?<br>
+            A) Milímetros (mm).<br>
+            B) Metros (m).<br>
+            C) Centímetros (cm).<br>
+            D) Segundos de arco ('').
+          </li>
+
+          <li class="mb-2">
+            <strong>Verificación de Elementos en Campo</strong><br>
+            ¿Cuál de los siguientes elementos de la curva no es mencionado explícitamente como obligatorio de verificar
+            en el terreno y comparar con los cálculos?<br>
+            A) La Externa (E).<br>
+            B) La Ordenada Media (M).<br>
+            C) La Cuerda Larga (CL).<br>
+            D) La Longitud de la Curva (L).
+          </li>
+
+          <li class="mb-2">
+            <strong>Procedimiento "Deflexiones y Cuerdas"</strong><br>
+            Al aplicar el método de "Deflexiones y Cuerdas" con el equipo instalado en el PC, ¿cuál es el paso inmediato
+            que se realiza antes de marcar la primera deflexión?<br>
+            A) Medir la sub-cuerda adyacente al origen.<br>
+            B) Enfocar el vértice (PI) y colocar el "cero" en el instrumento.<br>
+            C) Ubicar el Punto Medio (PM).<br>
+            D) Verificar la Cuerda Larga.
+          </li>
+
+          <li class="mb-2">
+            <strong>Requisito del Objetivo General</strong><br>
+            En la sección de Objetivos del informe, ¿qué debe evitar el objetivo general?<br>
+            A) Indicar el propósito principal de la práctica.<br>
+            B) Utilizar un verbo en infinitivo.<br>
+            C) Mencionar los demás objetivos específicos.<br>
+            D) Estar relacionado con el cálculo de la curva.
+          </li>
+
+          <li class="mb-2">
+            <strong>Descripción del Procedimiento de Campo</strong><br>
+            Respecto a la descripción del Procedimiento de Campo en el informe, ¿qué se solicita explícitamente
+            incluir?<br>
+            A) Copiar textualmente el procedimiento ideal de la guía.<br>
+            B) Una descripción de los procedimientos reales, incluyendo contratiempos o situaciones adversas.<br>
+            C) Una justificación de los métodos empleados en el campo.<br>
+            D) Solo la secuencia de pasos si no hubo errores.
+          </li>
+
+          <li class="mb-2">
+            <strong>Requisito de las Conclusiones</strong><br>
+            Las Conclusiones del informe deben evitar ser triviales o basadas en sentido común. ¿En qué deben
+            respaldarse principalmente?<br>
+            A) En una opinión subjetiva sobre la dificultad de la práctica.<br>
+            B) En el criterio del grupo de trabajo sin hacer referencia a la teoría.<br>
+            C) En el sentido común y experiencias previas.<br>
+            D) En lo aprendido en clase, manteniendo un criterio objetivo y crítico.
+          </li>
+
+          <li class="mb-2">
+            <strong>Descripción Técnica del Equipo</strong><br>
+            Además del nombre del equipo topográfico utilizado (ej. Estación Total), ¿qué información técnica adicional
+            es obligatorio detallar en el informe?<br>
+            A) Fecha de compra y costo de alquiler.<br>
+            B) El número de inventario de la universidad.<br>
+            C) Fabricante, marca, precisión y otras características relevantes.<br>
+            D) El nombre del estudiante responsable de su uso.
+          </li>
+        </ol>
+
+        <p class="fw-semibold mt-3">✅ Clave de respuestas – Guía 1</p>
+        <p class="small mb-0">
+          1) B · 2) B · 3) B · 4) C · 5) D · 6) B · 7) C · 8) B · 9) D · 10) C
+        </p>
+      </div>
+    </section>
+
+    <!-- ================= GUIA 3 ================= -->
+    <section id="guia3" class="mb-5">
+      <div class="card-custom p-4">
+        <h4 class="mb-2">Cuestionario – Guía 3: Curvas Espiralizadas</h4>
+        <p class="text-muted mb-3">
+          Cuestionario sobre fundamentos teóricos y procedimiento práctico para el trazado y replanteo de curvas
+          espiralizadas en ingeniería vial.
+        </p>
+
+        <h6 class="fw-semibold">1. Función Geométrica y Seguridad Vial</h6>
+        <ol>
+          <li class="mb-2">
+            ¿Cuál es la principal función geométrica de la curva espiralizada (curva de transición) al conectar una
+            tangente con una curva circular?<br>
+            A) Permitir que el vehículo experimente la fuerza centrífuga de forma abrupta.<br>
+            B) Aumentar progresivamente la curvatura, desde cero hasta el radio de la curva circular.<br>
+            C) Mantener un radio de curvatura constante en toda la transición.<br>
+            D) Simplificar el cálculo de la deflexión principal.
+          </li>
+          <li class="mb-2">
+            ¿Cómo influye la variación progresiva del radio en una curva espiralizada en la seguridad y el
+            comportamiento dinámico del vehículo?<br>
+            A) Genera un peralte constante desde el inicio de la tangente.<br>
+            B) Permite un drenaje más rápido en la sección curva.<br>
+            C) Mitiga la producción abrupta de la fuerza centrífuga, mejorando la comodidad y seguridad del usuario.<br>
+            D) Acelera el proceso de trazado en campo.
+          </li>
+          <li class="mb-2">
+            Además de la función geométrica, la espiral cumple una función constructiva clave. ¿Cuál es?<br>
+            A) Aumentar la longitud total de la vía.<br>
+            B) Facilitar la medición de la tangente corta (Te).<br>
+            C) Permitir la transición progresiva del bombeo normal al peralte máximo.<br>
+            D) Determinar el Punto de Intersección (PI) con mayor precisión.
+          </li>
+        </ol>
+
+        <h6 class="fw-semibold">2. Puntos Característicos y Trazado</h6>
+        <ol start="4">
+          <li class="mb-2">
+            En una curva espiralizada, ¿qué punto representa la transición entre el final de la curva circular y el
+            inicio de la espiral de salida?<br>
+            A) TE (Tangente–Espiral)<br>
+            B) ET (Espiral–Tangente)<br>
+            C) EC (Espiral–Circular)<br>
+            D) CE (Circular–Espiral)
+          </li>
+          <li class="mb-2">
+            ¿Qué punto debe materializarse en el sentido contrario al abscisado, midiendo la tangente de la espiral (Te)
+            desde el PI?<br>
+            A) ET<br>
+            B) EC<br>
+            C) TE<br>
+            D) CE
+          </li>
+          <li class="mb-2">
+            Según el procedimiento estándar de trazado desde el TE, ¿cuál es el primer paso después de centrar y nivelar
+            el teodolito en el TE y orientar la visual hacia el PI?<br>
+            A) Medir la tangente larga (Tl).<br>
+            B) Colocar el círculo horizontal en ceros.<br>
+            C) Trasladar el instrumento al EC.<br>
+            D) Girar el instrumento 180°.
+          </li>
+        </ol>
+
+        <h6 class="fw-semibold">3. Método de Replanteo y Procedimiento</h6>
+        <ol start="7">
+          <li class="mb-2">
+            El método de deflexiones y cuerdas es el recomendado para el replanteo. ¿Qué alternativa lo complementa en
+            caso de condiciones adversas de terreno?<br>
+            A) El método de la poligonal abierta.<br>
+            B) El método de radiación simple.<br>
+            C) El método de la tangente principal.<br>
+            D) El método de abscisas y ordenadas sobre las tangentes.
+          </li>
+          <li class="mb-2">
+            Tras replantear la espiral de entrada hasta el punto EC, el teodolito se traslada a este punto. ¿Cuál es la
+            acción inmediata y necesaria (además de centrar y nivelar) para quedar listo para el replanteo de la curva
+            circular central?<br>
+            A) Orientar hacia el ET y marcar la deflexión principal.<br>
+            B) Orientar hacia el PI, poner el círculo en ceros y medir la tangente larga.<br>
+            C) Orientar hacia el PI, poner el círculo en ceros y luego girar el instrumento 180° (transitar).<br>
+            D) Orientar hacia el CE y medir la deflexión total.
+          </li>
+          <li class="mb-2">
+            Al trazar la curva circular central desde el EC, ¿cuál debe ser la deflexión que se marca para localizar el
+            punto CE, en analogía con una curva circular simple?<br>
+            A) El ángulo de deflexión principal (Δ).<br>
+            B) La deflexión parcial del primer punto.<br>
+            C) La mitad del ángulo central de la curva circular (Δc/2).<br>
+            D) 180° menos el ángulo de deflexión.
+          </li>
+        </ol>
+
+        <h6 class="fw-semibold">4. Control de Calidad y Errores</h6>
+        <ol start="10">
+          <li class="mb-2">
+            ¿Qué se debe verificar al finalizar el replanteo de la curva espiralizada antes de considerarla
+            concluida?<br>
+            A) Que la longitud de la espiral (Ls) sea igual a la cuerda unidad seleccionada.<br>
+            B) Que el punto PI haya sido removido del terreno.<br>
+            C) Los errores de cierre angular y lineal, y la comparación de las tangentes obtenidas en campo con sus
+            valores teóricos.<br>
+            D) Que se haya completado el informe de oficina.
+          </li>
+          <li class="mb-2">
+            El cierre angular y lineal en una curva espiralizada se determina aplicando los mismos criterios que en una
+            curva circular simple. ¿Cuál es su utilidad principal?<br>
+            A) Solo para fines académicos.<br>
+            B) Un requisito formal sin impacto en el resultado.<br>
+            C) Es un indicador de la calidad del replanteo, permitiendo decidir si el trazado es aceptable o requiere
+            ajuste.<br>
+            D) Para calcular la longitud final de la curva.
+          </li>
+          <li class="mb-2">
+            Mencione una fuente principal de error asociada al uso del teodolito o estación total en el trazado de
+            curvas.<br>
+            A) La longitud de la espiral (Ls) no se calculó correctamente.<br>
+            B) Errores de centrado y nivelación del instrumento sobre los puntos de estación (PI, TE, EC, ET).<br>
+            C) La ubicación del Ple de la espiral de salida no se hizo con control adicional.<br>
+            D) No registrar las observaciones en la bitácora.
+          </li>
+        </ol>
+
+        <h6 class="fw-semibold">5. Procedimiento de Oficina y Preparación</h6>
+        <ol start="13">
+          <li class="mb-2">
+            Antes de comenzar el trabajo de campo, la etapa de "Procedimiento de Oficina" exige el cálculo de varios
+            elementos. ¿Cuál de los siguientes no es un elemento geométrico de la curva espiralizada que debe calcularse
+            previamente?<br>
+            A) Longitud de espiral (Ls).<br>
+            B) Coordenadas o abscisas y ordenadas.<br>
+            C) Tangentes (Te y Tl).<br>
+            D) Errores de cierre angular y lineal (se calculan después del replanteo).
+          </li>
+          <li class="mb-2">
+            ¿Qué debe registrarse obligatoriamente en la cartera de replanteo para la marcación de puntos sobre la
+            espiral desde el TE?<br>
+            A) La topografía del lugar.<br>
+            B) El número de jalones utilizados.<br>
+            C) La duración total de la práctica.<br>
+            D) Deflexiones parciales y totales con sus distancias correspondientes.
+          </li>
+        </ol>
+
+        <p class="fw-semibold mt-3">✅ Clave de respuestas – Guía 3</p>
+        <p class="small mb-0">
+          1) B · 2) C · 3) C · 4) C · 5) C · 6) B · 7) D · 8) C · 9) C · 10) C · 11) C · 12) B · 13) D · 14) D
+        </p>
+      </div>
+    </section>
+
+    <!-- ================= GUIA 4 ================= -->
+    <section id="guia4" class="mb-5">
+      <div class="card-custom p-4">
+        <h4 class="mb-2">Cuestionario – Guía 4: Asignación y Transición de Peralte</h4>
+        <p class="text-muted mb-3">
+          Cuestionario sobre fundamentos teóricos, procedimiento y documentación relacionados con la sobreelevación y el
+          peralte en curvas.
+        </p>
+
+        <h6 class="fw-semibold">I. Fundamentos Teóricos (1–8)</h6>
+        <ol>
+          <li class="mb-2">
+            ¿Cuál es el valor del peralte máximo (e<sub>max</sub>) definido para el caso de estudio de esta
+            práctica?<br>
+            A) 6% · B) 7% · C) 8% · D) Libre
+          </li>
+          <li class="mb-2">
+            La fuerza que tiende a desplazar el vehículo hacia el exterior de una curva se denomina:<br>
+            A) Fuerza tangencial · B) Fuerza centrífuga · C) Fuerza de fricción · D) Fuerza normal
+          </li>
+          <li class="mb-2">
+            ¿Cuál de las siguientes es una función principal del peralte en términos de comodidad?<br>
+            A) Mejorar la adherencia del vehículo.<br>
+            B) Evitar el deslizamiento lateral.<br>
+            C) Proporcionar una transición suave que evite cambios bruscos en la inclinación transversal.<br>
+            D) Reducir los efectos de la fuerza centrífuga.
+          </li>
+          <li class="mb-2">
+            ¿Qué es el bombeo normal en una tangente?<br>
+            A) El peralte máximo.<br>
+            B) Una pendiente transversal positiva.<br>
+            C) Una pendiente transversal negativa para evacuar aguas.<br>
+            D) La longitud de aplanamiento.
+          </li>
+          <li class="mb-2">
+            En curvas espiralizadas, ¿qué dos elementos cambian suavemente a lo largo de la longitud de la espiral
+            (Ls)?<br>
+            A) La velocidad y la fricción.<br>
+            B) La fuerza centrífuga y el ancho de calzada.<br>
+            C) El radio y la pendiente transversal.<br>
+            D) La progresiva y la cota del eje.
+          </li>
+          <li class="mb-2">
+            ¿Qué se entiende por "sobreelevación" en esta práctica?<br>
+            A) El ajuste de la cota del borde interior.<br>
+            B) La diferencia entre el peralte máximo y el bombeo normal.<br>
+            C) El efecto progresivo de elevación del borde exterior de la calzada.<br>
+            D) El punto donde el radio se hace infinito.
+          </li>
+          <li class="mb-2">
+            ¿Cuál es el ancho de la calzada definido para los cálculos de sobreelevación en esta guía?<br>
+            A) 3 m · B) 6 m · C) 7.20 m · D) Depende de la velocidad de diseño.
+          </li>
+          <li class="mb-2">
+            La transición desde el bombeo normal hasta el 100% del peralte debe realizarse de forma:<br>
+            A) Inmediata · B) Brusca · C) Progresiva · D) Únicamente sobre la curva circular.
+          </li>
+        </ol>
+
+        <h6 class="fw-semibold">II. Procedimiento y Cálculos (9–16)</h6>
+        <ol start="9">
+          <li class="mb-2">
+            ¿Qué método de rotación se utiliza en esta práctica, adecuado para representar el comportamiento geométrico
+            sin movimiento de tierra real?<br>
+            A) Rotación sobre el eje.<br>
+            B) Rotación alrededor del borde interior.<br>
+            C) Rotación alrededor del borde exterior.<br>
+            D) Rotación sobre la bisectriz.
+          </li>
+          <li class="mb-2">
+            La progresividad del peralte en campo se controlará a través de estacas colocadas en:<br>
+            A) Solo en el eje.<br>
+            B) En el eje y en el borde interior.<br>
+            C) En el eje y en ambos bordes (interior y exterior).<br>
+            D) Solo en el borde exterior.
+          </li>
+          <li class="mb-2">
+            ¿Qué debe ser coincidente con la Longitud de Aplanamiento en el Procedimiento de Oficina?<br>
+            A) La Longitud de la Curva Circular.<br>
+            B) El radio de la curva.<br>
+            C) La Longitud de la Espiral (Ls).<br>
+            D) La Progresiva del punto A.
+          </li>
+          <li class="mb-2">
+            ¿Cuál es el punto de partida obligatorio para la nivelación simple de los puntos en el eje y los bordes?<br>
+            A) El punto TE (Tangente–Espiral).<br>
+            B) El punto EC (Espiral–Circular).<br>
+            C) El BM asignado (Banco de Marca).<br>
+            D) El punto C (Peralte máximo).
+          </li>
+          <li class="mb-2">
+            ¿Qué herramienta de campo se debe utilizar para trazar la perpendicular que define el ancho de la calzada
+            desde cada punto del eje?<br>
+            A) Teodolito o estación total.<br>
+            B) Nivel de precisión.<br>
+            C) Escuadra de agrimensor.<br>
+            D) Mira.
+          </li>
+          <li class="mb-2">
+            ¿Qué cálculo permite ajustar la altura de las estacas en campo para producir el efecto progresivo de la
+            sobreelevación?<br>
+            A) Valores progresivos de pendiente transversal.<br>
+            B) Coordenadas de los puntos.<br>
+            C) Cálculo de Cotas (Eje, Borde interior, Borde exterior).<br>
+            D) Distancia desde el TE.
+          </li>
+          <li class="mb-2">
+            ¿Qué se debe hacer con la curva espiralizada replanteada para completar la longitud de aplanamiento?<br>
+            A) Rotar la calzada.<br>
+            B) Extender la curva una abscisa antes del TE y una después del ET.<br>
+            C) Ubicar solo los puntos A, B, D y E.<br>
+            D) Nivelar solo el eje.
+          </li>
+          <li class="mb-2">
+            ¿Cuál es la fase posterior al trabajo de campo en el Procedimiento de Oficina?<br>
+            A) Definición de las abscisas A, B, D, E y C.<br>
+            B) Comparar las cotas teóricas con las observadas y analizar las diferencias.<br>
+            C) Elaboración de la cartera de replanteo.<br>
+            D) Cálculo de los valores progresivos de pendiente transversal.
+          </li>
+        </ol>
+
+        <h6 class="fw-semibold">III. Logística y Documentación (17–20)</h6>
+        <ol start="17">
+          <li class="mb-2">
+            Para que la práctica tenga una duración estimada de dos (2) horas, ¿cuál de los siguientes requisitos es
+            indispensable?<br>
+            A) La impresión del informe final.<br>
+            B) Las carteras calculadas y las estacas listas.<br>
+            C) El registro de observaciones.<br>
+            D) La revisión de la integridad del equipo.
+          </li>
+          <li class="mb-2">
+            ¿Qué equipos deben ser suministrados obligatoriamente por el estudiante?<br>
+            A) Teodolito y Nivel de precisión.<br>
+            B) Mira y cinta métrica.<br>
+            C) Estacas de diferentes longitudes y Carteras impresas.<br>
+            D) Solo crayolas o marcadores.
+          </li>
+          <li class="mb-2">
+            ¿Qué debe registrarse de inmediato como parte de las Consideraciones de Seguridad y Calidad?<br>
+            A) El estado del terreno.<br>
+            B) El comportamiento de las pendientes.<br>
+            C) La comprobación visual de la transición lograda.<br>
+            D) Cualquier inconsistencia entre cotas teóricas y observadas.
+          </li>
+          <li class="mb-2">
+            ¿Qué debe incluirse obligatoriamente en la sección de Anexos del informe final?<br>
+            A) Introducción y objetivos.<br>
+            B) Conclusiones y recomendaciones.<br>
+            C) Cartera de replanteo, cartera de nivelación y fotografías del trabajo.<br>
+            D) Fundamento teórico del peralte.
+          </li>
+        </ol>
+
+        <p class="fw-semibold mt-3">✅ Clave de respuestas – Guía 4</p>
+        <p class="small mb-0">
+          1) C · 2) B · 3) C · 4) C · 5) C · 6) C · 7) B · 8) C ·
+          9) B · 10) C · 11) C · 12) C · 13) C · 14) C · 15) B · 16) B ·
+          17) B · 18) C · 19) D · 20) C
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container text-center">
+      © 2025 Aula Virtual Vías I – Universidad de Sucre
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
